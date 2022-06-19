@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hotel-website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./sales.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./sales.html">Sales</a>
+        <a href="#">Hotels</a>
+      </nav>
+      <a class="logo" href="./index.html">BookingGe</a>
+      <h3>!!Sales!!</h3>
+    </header>
+    <main>
+      <section class="sales">
+        <div class="card text-bg-primary mb-3" style="width: 18rem">
+          <img
+            src="https://georgiantravelguide.com/storage/files/royal-city-12.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Hotel N1 <br />
+              Royal city (25% sale)
+            </h5>
+            <p class="card-text">
+              contact: 123 456 789 <br />
+              location: Tbilisi <br />
+              E-mail: testmail@gmail.com
+            </p>
+            <a href="#" type="button" class="btn btn-warning">See hotel</a>
+          </div>
+        </div>
+        <div class="card text-bg-danger mb-3" style="width: 18rem">
+          <img
+            src="https://georgiantravelguide.com/storage/thumbnails/15-15.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Hotel N2 <br />
+              Mestia Inn (50% sale)
+            </h5>
+            <p class="card-text">
+              contact: 987 654 321 <br />
+              location: Svaneti <br />
+              E-mail: randomEmail@gmail.com
+            </p>
+            <a href="#" type="button" class="btn btn-dark">See hotel</a>
+          </div>
+        </div>
+        <div class="card text-bg-success mb-3" style="width: 18rem">
+          <img
+            src="https://georgiantravelguide.com/storage/thumbnails/101475752-622424118362771-173647.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Hotel N3 <br />
+              Mestia Inn (70% sale)
+            </h5>
+            <p class="card-text">
+              contact: 111 222 333 <br />
+              location: Racha <br />
+              E-mail: randomEmail@gmail.com
+            </p>
+            <a href="#" type="button" class="btn btn-primary">See hotel</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="./firebase.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

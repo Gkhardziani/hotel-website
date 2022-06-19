@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: url(https://th.bing.com/th/id/R.e8b17187f3abe5ed3dbde43c38fad2e9?rik=dcRknfio%2b9Dchw&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2017%2f04%2fHotel-Background-.jpg&ehk=EY18P6k2xEc6GYY0PI7rKrmWiQQMD5vwBlLPOC81gUw%3d&risl=&pid=ImgRaw&r=0);
+  height: 70vh;
+  z-index: -1;
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+header nav a {
+  color: darkorange;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+header .logo {
+  margin-left: 70%;
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+main h2 {
+  margin-left: 45%;
+  margin-top: 3%;
+  font-weight: 300;
+  color: blueviolet;
+}
+
+div {
+  margin-top: 5%;
+  margin-left: 14%;
+}
+
+section {
+  display: flex;
+}
