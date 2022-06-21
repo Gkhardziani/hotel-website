@@ -25,113 +25,8 @@ header .logo {
   font-size: 24px;
 }
 
-main .HomePage article .top {
-  height: 500px;
-  overflow: hidden;
-}
-main .HomePage article .top img {
-  transition: 0.5s ease;
-}
-main .HomePage article .top:hover img {
-  transform: scale(1.2);
-}
-main .HomePage article .bottom {
-  height: 50%;
-  width: 100%;
-}
-
-main .HomePage article .bottom h2 {
-  margin-left: 45%;
-  font-weight: 300;
-  color: blueviolet;
-}
-
-main .HomePage article .bottom .banners {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-main .HomePage article .bottom .banners .left {
-  height: 366;
-  width: 288;
-  border: 4px solid black;
-  border-radius: 10px;
-}
-main .HomePage article .bottom .banners .left .BannerOneTop {
-  overflow: hidden;
-}
-main .HomePage article .bottom .banners .left .BannerOneTop img {
-  transition: 0.5s ease;
-}
-main .HomePage article .bottom .banners .left .BannerOneTop:hover img {
-  transform: scale(1.2);
-}
-main .HomePage article .bottom .banners .left .BannerOneBotom button {
-  width: 100%;
-  height: 40px;
-  border: 0px;
-  color: white;
-  background-color: #ff0000;
-}
-main .HomePage article .bottom .banners .left .BannerOneBotom button:hover {
-  background-color: blue;
-  color: white;
-}
-main .HomePage article .bottom .banners .middle {
-  height: 366;
-  width: 288;
-  border: 4px solid black;
-  border-radius: 10px;
-}
-main .HomePage article .bottom .banners .middle .BannerTwoTop {
-  overflow: hidden;
-}
-main .HomePage article .bottom .banners .middle .BannerTwoTop img {
-  transition: 0.5s ease;
-}
-main .HomePage article .bottom .banners .middle .BannerTwoTop:hover img {
-  transform: scale(1.2);
-}
-main .HomePage article .bottom .banners .middle .BannerTwoBottom button {
-  width: 100%;
-  height: 40px;
-  border: 0px;
-  color: white;
-  background-color: #ff0000;
-}
-main .HomePage article .bottom .banners .middle .BannerTwoBottom button:hover {
-  background-color: blue;
-  color: white;
-}
-main .HomePage article .bottom .banners .right {
-  height: 366;
-  width: 288;
-  border: 4px solid black;
-  border-radius: 10px;
-}
-main .HomePage article .bottom .banners .right .BannerThreeTop {
-  overflow: hidden;
-}
-main .HomePage article .bottom .banners .right .BannerThreeTop img {
-  transition: 0.5s ease;
-}
-main .HomePage article .bottom .banners .right .BannerThreeTop:hover img {
-  transform: scale(1.2);
-}
-main .HomePage article .bottom .banners .right .BannerThreeBottom button {
-  width: 100%;
-  height: 40px;
-  border: 0px;
-  color: white;
-  background-color: #ff0000;
-}
-main .HomePage article .bottom .banners .right .BannerThreeBottom button:hover {
-  background-color: blue;
-  color: white;
-}
-
 footer {
-  height: 12vh;
+  height: 8vh;
   background-color: grey;
   margin-top: 3%;
 }
@@ -143,4 +38,22 @@ footer a {
   text-decoration: none;
   color: snow;
   font-size: 30px;
+}
+
+main .register {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+}
+
+main .register .top h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+main .register .bottom {
+  display: grid;
+  grid-template-columns: 1fr;
 }
