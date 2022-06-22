@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: snow;
 }
 
 header nav {
@@ -134,6 +135,12 @@ main
   button:hover {
   background-color: blue;
   color: white;
+}
+
+a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
 }
 
 footer {

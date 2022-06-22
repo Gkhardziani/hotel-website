@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: snow;
 }
 
 header nav {
@@ -15,6 +16,12 @@ header nav a {
   margin-left: 15px;
   font-weight: 300;
   font-size: 20px;
+}
+
+a:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
 }
 
 header .logo {
@@ -34,7 +41,7 @@ footer {
 footer a {
   display: inline-block;
   margin-left: 24%;
-  margin-top: 2%;
+  margin-top: 1%;
   text-decoration: none;
   color: snow;
   font-size: 30px;
@@ -46,6 +53,9 @@ main .register {
   row-gap: 20px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 1%;
 }
 
 main .register .top h3 {
@@ -56,4 +66,36 @@ main .register .top h3 {
 main .register .bottom {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+main section {
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  margin-left: 40%;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+main section a {
+  text-decoration: none;
+  color: darkkhaki;
+}
+
+main .addPost button {
+  width: 100%;
+}
+
+main .displayPosts {
+  width: 100%;
+  display: grid !important;
+  place-items: center;
+}
+
+main .displayPosts article {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }

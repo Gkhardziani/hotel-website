@@ -19,6 +19,11 @@
   </head>
   <body>
     <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./sales.html">Sales</a>
+        <a href="./Hotels.html">Hotels</a>
+      </nav>
       <a class="logo" href="./index.html">BookingGe</a>
     </header>
     <main>
@@ -27,31 +32,26 @@
         <li><a href="./register.html">register</a></li>
         <li><a href="./addhotel.html">Add hotel</a></li>
       </section>
-      <section class="register">
-        <aside class="top">
-          <h3>რეგისტრაცია</h3>
-        </aside>
-        <aside class="bottom">
+      <section class="addPost">
+        <article>
           <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" />
+            <label for="title" class="form-label">Title</label>
+            <input
+              type="text"
+              class="form-control"
+              id="title"
+              placeholder="Example..."
+            />
           </div>
           <div class="mb-3">
-            <label for="lastname" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="lastname" />
+            <label for="text" class="form-label">Text</label>
+            <textarea class="form-control" id="text" rows="3"></textarea>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" />
+            <input type="file" class="form-control" id="image" />
           </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" />
-          </div>
-          <button type="submit" id="submitButton" class="btn btn-primary">
-            Submit
-          </button>
-        </aside>
+          <button class="btn btn-primary" id="button">Add Post</button>
+        </article>
       </section>
     </main>
     <script
@@ -66,7 +66,6 @@
     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
     <script src="./firebase.js"></script>
     <script src="./main.js"></script>
-    <script src="./register.js"></script>
     <script src="./addhotel.js"></script>
   </body>
 </html>
