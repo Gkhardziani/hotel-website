@@ -8,19 +8,19 @@ header {
   height: 40px;
   background-color: #420409a1;
 }
-header article {
+header section {
   height: 15%;
 }
-header article .left {
+header section .left {
   width: 50%;
 
   display: inline-block;
 }
-header article .left nav {
+header section .left nav {
   display: inline-block;
 }
 
-header article .left nav a {
+header section .left nav a {
   color: darkorange;
   text-decoration: none;
   margin-left: 15px;
@@ -28,18 +28,18 @@ header article .left nav a {
   font-size: 20px;
 }
 
-header article .right {
+header section .right {
   width: 50%;
   height: 15%;
   float: right;
 }
-header article .right .logo {
+header section .right .logo {
   text-decoration: none;
   color: darkorange;
   font-weight: 300;
   font-size: 24px;
 }
-header article .right ul {
+header section .right ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -49,7 +49,7 @@ header article .right ul {
   margin-bottom: 0px;
 }
 
-header article .right ul li a {
+header section .right ul li a {
   text-decoration: none;
   color: darkgoldenrod;
 }
@@ -100,7 +100,7 @@ main section {
   display: flex;
   list-style-type: none;
   gap: 100px;
-  margin-left: 40%;
+  margin-left: 0%;
   font-size: 30px;
   margin-top: 10%;
 }
@@ -112,6 +112,20 @@ main section a {
 
 main .addPost button {
   width: 100%;
+}
+
+main .displayPosts {
+  width: 100%;
+  display: grid !important;
+  place-items: center;
+}
+
+main .displayPosts article {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 main .displayPosts {

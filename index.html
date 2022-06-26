@@ -19,7 +19,7 @@
   </head>
   <body>
     <header>
-      <article>
+      <section>
         <aside class="left">
           <nav>
             <a href="./index.html">Home</a>
@@ -29,29 +29,41 @@
         </aside>
         <aside class="right">
           <ul>
+            <li><a href="./addhotel.html">Add hotel</a></li>
+            <li>
+              <a class="nav-link not-vissible logout" href="./register.html"
+                >Log out</a
+              >
+            </li>
             <li><a href="./login.html">login</a></li>
             <li><a href="./register.html">register</a></li>
             <li><a class="logo" href="./index.html">BookingGe</a></li>
           </ul>
         </aside>
-      </article>
+      </section>
     </header>
     <main>
       <section class="HomePage">
-        <article>
-          <aside class="top">
-            <img
-              src="./assests/img/HomePage/Homepage1.jpg"
-              height="100%"
-              width="100%"
-            />
-          </aside>
-          <aside class="bottom">
-            <div class="buttons">
-              <a class="SalePageButton" href="./sales.html"> Hotels on sale</a>
-              <a class="HotelPageButton" href="./hotels.html">All Hotels</a>
+        <aside class="top"></aside>
+        <aside class="bottom">
+          <div class="buttons">
+            <a class="SalePageButton" href="./sales.html"> Hotels on sale</a>
+            <a class="HotelPageButton" href="./hotels.html">All Hotels</a>
+          </div>
+        </aside>
+      </section>
+      <section class="not-vissible displayPosts">
+        <article id="displayPost">
+          <div class="loading">
+            <div class="content-container">
+              <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+              </div>
             </div>
-          </aside>
+          </div>
         </article>
       </section>
     </main>
@@ -78,6 +90,7 @@
     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
     <script src="./firebase.js"></script>
     <script src="./addhotel.js"></script>
+    <script src="./add.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

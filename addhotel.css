@@ -53,3 +53,25 @@ a:hover {
   background: #2196f3;
   box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
 }
+
+main .displayPosts article {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .displayPosts {
+  width: 100%;
+  display: grid !important;
+  place-items: center;
+}
+
+main .displayPosts article {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
