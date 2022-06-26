@@ -23,6 +23,6 @@ submitButton.addEventListener("click", () => {
     displayAlert("შესრულდა", "წარმატებით დაემატა გაიარეთ ავტორიზაცია", "success");
     localStorage.setItem("userid", currentUser.userid);
     setTimeout(() => {
-        location.href = "index.html";
+        location.href = "login.html";
     }, 1000);
 });

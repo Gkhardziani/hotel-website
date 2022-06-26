@@ -9,6 +9,8 @@ button.addEventListener("click", () => {
     if (titleValue == "" || textValue == "") {
         return;
     }
+
+
     let imgSrc = "";
     try {
         const reader = new FileReader();
@@ -39,3 +41,5 @@ button.addEventListener("click", () => {
         location.href = "index.html";
     }, 1500);
 });
+
+
