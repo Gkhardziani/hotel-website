@@ -1,96 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hotel-website</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <section>
-        <aside class="left">
-          <nav>
-            <a href="./index.html">Home</a>
-            <a href="./sales.html">Sales</a>
-            <a href="./Hotels.html">Hotels</a>
-          </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hotel-website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- -----------------header-------------- -->
+  <header>
+    <article>
+      <aside class="left">
+        <nav>
+          <a href="./index.html">Home</a>
+          <a href="./hotels.html">Hotels</a>
+        </nav>
+      </aside>
+      <aside class="right">
+        <ul>
+          
+          <li><a href="./addhotel.html">addhotel</a></li>
+          <li><a class="nav-link not-vissible logout" href="./register.html">Log out</a></li>
+          <li><a href="./login.html">login</a></li>
+          <li><a href="./register.html">register</a></li>
+          <li> <a class="logo" href="./index.html">BookingGe</a> </li>
+        </ul>
+    </article>
+  </header>
+  <!-- -------------------------main------------------------- -->
+  <main>
+    <section class="HomePage">
+      <article>
+        <aside class="top">
+          <img src="https://img.freepik.com/free-vector/travel-destination-georgia-tourism-mockup-with-travel-equipment-world-map-with-magnifying-glass-georgia_292608-1170.jpg?w=2000" height="100%" width="100%" />
         </aside>
-        <aside class="right">
-          <ul>
-            <li><a href="./addhotel.html">Add hotel</a></li>
-            <li>
-              <a class="nav-link not-vissible logout" href="./register.html"
-                >Log out</a
-              >
-            </li>
-            <li><a href="./login.html">login</a></li>
-            <li><a href="./register.html">register</a></li>
-            <li><a class="logo" href="./index.html">BookingGe</a></li>
-          </ul>
-        </aside>
-      </section>
-    </header>
-    <main>
-      <section class="HomePage">
-        <aside class="top"></aside>
         <aside class="bottom">
           <div class="buttons">
-            <a class="SalePageButton" href="./sales.html"> Hotels on sale</a>
-            <a class="HotelPageButton" href="./hotels.html">All Hotels</a>
+            <a class="HotelPageButton" href="./hotels.html">View Hotels</a>
           </div>
         </aside>
-      </section>
-      <section class="not-vissible displayPosts">
-        <article id="displayPost">
-          <div class="loading">
-            <div class="content-container">
-              <div class="sk-folding-cube">
-                <div class="sk-cube1 sk-cube"></div>
-                <div class="sk-cube2 sk-cube"></div>
-                <div class="sk-cube4 sk-cube"></div>
-                <div class="sk-cube3 sk-cube"></div>
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <a href="https://www.facebook.com/"
-        ><i class="fa-brands fa-facebook"></i
-      ></a>
-      <a href="https://www.instagram.com/?hl=en"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <a href="https://twitter.com/?lang=en"
-        ><i class="fa-brands fa-twitter"></i
-      ></a>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
-    <script src="./firebase.js"></script>
-    <script src="./addhotel.js"></script>
-    <script src="./add.js"></script>
-    <script src="./main.js"></script>
-  </body>
+      </article>
+    </section>
+  </main>
+  <!-- ---------------footer---------------- -->
+  <footer>
+    <ul>
+      <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+  </footer>
+  <!-- -------------------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <script src="./firebase.js"></script>
+  <script src="./addhotel.js"></script>
+  <script src="./add.js"></script>
+  <script src="./main.js"></script>
+</body>
+
 </html>

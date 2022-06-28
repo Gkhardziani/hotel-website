@@ -1,45 +1,43 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: snow;
 }
-
+/* ------------------Header---------------- */
 header {
   height: 40px;
   background-color: #420409a1;
 }
-header section {
+header article {
   height: 15%;
 }
-header section .left {
+header article .left {
   width: 50%;
 
   display: inline-block;
 }
-header section .left nav {
+header article .left nav {
   display: inline-block;
 }
 
-header section .left nav a {
+header article .left nav a {
   color: darkorange;
   text-decoration: none;
   margin-left: 15px;
   font-weight: 300;
   font-size: 20px;
 }
-
-header section .right {
+header article .right {
   width: 50%;
   height: 15%;
   float: right;
 }
-header section .right .logo {
+header article .right .logo {
   text-decoration: none;
   color: darkorange;
   font-weight: 300;
   font-size: 24px;
 }
-header section .right ul {
+header article .right ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -49,95 +47,231 @@ header section .right ul {
   margin-bottom: 0px;
 }
 
-header section .right ul li a {
+header article .right ul li a {
   text-decoration: none;
   color: darkgoldenrod;
 }
 
-a:hover {
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+/* -------------------Home page------------------ */
+main .HomePage article .top {
+  height: 500px;
+  overflow: hidden;
 }
-
-footer {
-  height: 8vh;
-  background-color: grey;
-  margin-top: 3%;
+main .HomePage article .top img {
+  transition: 0.5s ease;
 }
-
-footer a {
-  display: inline-block;
-  margin-left: 24%;
-  margin-top: 1%;
+main .HomePage article .top:hover img {
+  transform: scale(1.2);
+}
+main .HomePage article .bottom .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+main .HomePage article .bottom .buttons a {
   text-decoration: none;
-  color: snow;
-  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .HomePage article .bottom .SalePageButton {
+  width: 49.8%;
+  height: 40px;
+  border: 0px;
+  color: gold;
+  background-color: #420409a1;
+}
+main .HomePage article .bottom .SalePageButton:hover {
+  background-color: orange;
+  color: #414141;
+}
+main .HomePage article .bottom .HotelPageButton {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  color: gold;
+  background-color: #420409a1;
+}
+main .HomePage article .bottom .HotelPageButton:hover {
+  background-color: orange;
+  color: #414141;
 }
 
-main .register {
+/* -------------------------Hotel page--------------------------- */
+
+main .HotelsPage article .top {
+  height: 500px;
+  overflow: hidden;
+}
+main .HotelsPage article .top img {
+  transition: 0.5s ease;
+}
+main .HotelsPage article .top:hover img {
+  transform: scale(1.2);
+}
+main .HotelsPage article .bottom {
+  height: 50%;
+  width: 100%;
+}
+
+main .HotelsPage article .bottom h2 {
+  margin-left: 45%;
+  font-weight: 300;
+  color: blueviolet;
+}
+
+main .HotelsPage article .bottom .banners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .HotelsPage article .bottom .banners .left {
+  height: 366;
+  width: 288;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+main .HotelsPage article .bottom .banners .left .BannerOneTop {
+  overflow: hidden;
+}
+main .HotelsPage article .bottom .banners .left .BannerOneTop img {
+  transition: 0.5s ease;
+}
+main .HotelsPage article .bottom .banners .left .BannerOneTop:hover img {
+  transform: scale(1.2);
+}
+main .HotelsPage article .bottom .banners .left .BannerOneBotom button {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  color: white;
+  background-color: #ff0000;
+}
+main .HotelsPage article .bottom .banners .left .BannerOneBotom button:hover {
+  background-color: blue;
+  color: white;
+}
+main .HotelsPage article .bottom .banners .middle {
+  height: 366;
+  width: 288;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+main .HotelsPage article .bottom .banners .middle .BannerTwoTop {
+  overflow: hidden;
+}
+main .HotelsPage article .bottom .banners .middle .BannerTwoTop img {
+  transition: 0.5s ease;
+}
+main .HotelsPage article .bottom .banners .middle .BannerTwoTop:hover img {
+  transform: scale(1.2);
+}
+main .HotelsPage article .bottom .banners .middle .BannerTwoBottom button {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  color: white;
+  background-color: #ff0000;
+}
+main
+  .HotelsPage
+  article
+  .bottom
+  .banners
+  .middle
+  .BannerTwoBottom
+  button:hover {
+  background-color: blue;
+  color: white;
+}
+main .HotelsPage article .bottom .banners .right {
+  height: 366;
+  width: 288;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+main .HotelsPage article .bottom .banners .right .BannerThreeTop {
+  overflow: hidden;
+}
+main .HotelsPage article .bottom .banners .right .BannerThreeTop img {
+  transition: 0.5s ease;
+}
+main .HotelsPage article .bottom .banners .right .BannerThreeTop:hover img {
+  transform: scale(1.2);
+}
+main .HotelsPage article .bottom .banners .right .BannerThreeBottom button {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  color: white;
+  background-color: #ff0000;
+}
+main
+  .HotelsPage
+  article
+  .bottom
+  .banners
+  .right
+  .BannerThreeBottom
+  button:hover {
+  background-color: blue;
+  color: white;
+}
+/* ------------------------addhotel page------------------- */
+main .AddHotelPage {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
-  margin-right: 25%;
-  margin-left: 25%;
-  margin-top: 1%;
+  box-shadow: rgb(0 0 0 / 35%) 5px 5px 15px;
+  margin: 10% 25% 16% 25%;
 }
-
-main .register .top h3 {
-  text-align: center;
-  font-weight: bold;
-}
-
-main .register .bottom {
+/* ---------------------login page----------------- */
+main .LoginPage {
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 20px;
+  padding: 20px;
+  box-shadow: rgb(0 0 0 / 35%) 5px 5px 15px;
+  margin: 10% 25% 19% 25%;
 }
-
-main section {
+main .LoginPage .bottom .loginbanner {
   display: flex;
-  list-style-type: none;
-  gap: 100px;
-  margin-left: 0%;
-  font-size: 30px;
-  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
 }
+/* ---------------------register page----------------- */
+main .RegisterPage {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  padding: 20px;
+  box-shadow: rgb(0 0 0 / 35%) 5px 5px 15px;
+  margin: 10% 25% 10% 25%;
+}
+main .RegisterPage .bottom .registerbanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ---------------footer----------------  */
 
-main section a {
+footer {
+  height: 10%;
+  background-color: grey;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-bottom: 0;
+}
+footer ul li a {
+  display: inline-block;
+  margin-left: 24%;
+  margin-top: 2%;
   text-decoration: none;
-  color: darkkhaki;
-}
-
-main .addPost button {
-  width: 100%;
-}
-
-main .displayPosts {
-  width: 100%;
-  display: grid !important;
-  place-items: center;
-}
-
-main .displayPosts article {
-  width: 90%;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-main .displayPosts {
-  width: 100%;
-  display: grid !important;
-  place-items: center;
-}
-
-main .displayPosts article {
-  width: 90%;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+  color: snow;
+  font-size: 30px;
 }

@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 header {
   height: 40px;
   background-color: #420409a1;
@@ -21,7 +26,6 @@ header article .left nav a {
   font-weight: 300;
   font-size: 20px;
 }
-
 header article .right {
   width: 50%;
   height: 15%;
@@ -48,30 +52,23 @@ header article .right ul li a {
   color: darkgoldenrod;
 }
 
-a:hover {
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+footer {
+  height: 10%;
+  background-color: grey;
 }
-
-main .displayPosts article {
-  width: 90%;
+footer ul {
+  list-style: none;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-bottom: 0;
 }
-
-main .displayPosts {
-  width: 100%;
-  display: grid !important;
-  place-items: center;
-}
-
-main .displayPosts article {
-  width: 90%;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
+footer ul li a {
+  display: inline-block;
+  margin-left: 24%;
+  margin-top: 2%;
+  text-decoration: none;
+  color: snow;
+  font-size: 30px;
 }

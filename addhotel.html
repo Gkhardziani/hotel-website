@@ -16,9 +16,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./addhotel.css" />
   </head>
+
   <body>
+    <!-- -----------------header-------------- -->
     <header>
       <article>
         <aside class="left">
@@ -37,33 +38,55 @@
         </aside>
       </article>
     </header>
+    <!-- -------------------------main------------------------- -->
     <main>
-      <section class="auth">
-        <li><a href="./login.html">login</a></li>
-        <li><a href="./register.html">register</a></li>
-      </section>
-      <section class="addPost">
-        <article>
-          <div class="mb-3">
-            <label for="title" class="form-label">Title</label>
-            <input
-              type="text"
-              class="form-control"
-              id="title"
-              placeholder="Example..."
-            />
+      <section class="AddHotelPage">
+        <aside class="aside">
+          <div class="addhotelbanner">
+            <article>
+              <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="title"
+                  placeholder="Example..."
+                />
+              </div>
+              <div class="mb-3">
+                <label for="text" class="form-label">Text</label>
+                <textarea class="form-control" id="text" rows="3"></textarea>
+              </div>
+              <div class="mb-3">
+                <input type="file" class="form-control" id="image" />
+              </div>
+              <button class="btn btn-primary" id="button">Add Post</button>
+            </article>
           </div>
-          <div class="mb-3">
-            <label for="text" class="form-label">Text</label>
-            <textarea class="form-control" id="text" rows="3"></textarea>
-          </div>
-          <div class="mb-3">
-            <input type="file" class="form-control" id="image" />
-          </div>
-          <button class="btn btn-primary" id="button">Add Post</button>
-        </article>
+        </aside>
       </section>
     </main>
+    <!-- ---------------footer---------------- -->
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/?hl=en"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/?lang=en"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- -------------------------------- -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -76,6 +99,7 @@
     <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
     <script src="./firebase.js"></script>
     <script src="./main.js"></script>
+    <script src="./add.js"></script>
     <script src="./addhotel.js"></script>
   </body>
 </html>

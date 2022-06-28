@@ -1,130 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hotel-website</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./hotel.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="./index.html">Home</a>
-        <a href="./sales.html">Sales</a>
-        <a href="./Hotels.html">Hotels</a>
-      </nav>
-      <a class="logo" href="./index.html">BookingGe</a>
-    </header>
-    <!-- gamoyofi xazi martivad wasakitxad -->
-    <main>
-      <section class="HotelsPage">
-        <article>
-          <aside class="top">
-            <img
-              src="./assests/img/HomePage/HomePageBackground.jpg"
-              height="100%"
-              width="100%"
-            />
-          </aside>
-          <aside class="bottom">
-            <h2>Favourite Hotels</h2>
 
-            <article class="banners">
-              <aside class="left">
-                <aside class="BannerOneTop">
-                  <img
-                    src="./assests/img/HomePage/paradiso mestia.jpg"
-                    width="288"
-                    height="216"
-                  />
-                </aside>
-                <aside class="BannerOneBotom">
-                  <h5>Hotel Paradiso Mestia</h5>
-                  <p class="card-text">
-                    contact: 123 456 789 <br />
-                    location: Svaneti <br />
-                    Our E-mail: RandomEmail@Yahoo.com
-                  </p>
-                  <button>See hotel</button>
-                </aside>
-              </aside>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hotel-website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-              <aside class="middle">
-                <aside class="BannerTwoTop">
-                  <img
-                    src="./assests/img/HomePage/panorama bakmaro.png"
-                    width="288"
-                    height="216"
-                  />
-                </aside>
-                <aside class="BannerTwoBottom">
-                  <h5>Hotel Panorama bakhmaro</h5>
-                  <p>
-                    contact: 111 222 333 <br />
-                    location: Bakhmaro <br />
-                    Our E-mail: testEmail@gmail.com
-                  </p>
-                  <button>See Hotel</button>
-                </aside>
+<body>
+  <!-- -----------------header-------------- -->
+  <header>
+    <article>
+      <aside class="left">
+        <nav>
+          <a href="./index.html">Home</a>
+          <a href="./hotels.html">Hotels</a>
+        </nav>
+      </aside>
+      <aside class="right">
+        <ul>
+          <li><a href="./addhotel.html">addhotel</a></li>          
+          <li><a class="nav-link not-vissible logout" href="./register.html">Log out</a></li>
+          <li><a href="./login.html">login</a></li>
+          <li><a href="./register.html">register</a></li>
+          <li> <a class="logo" href="./index.html">BookingGe</a> </li>
+        </ul>
+    </article>
+  </header>
+  <!-- --------------main------------------- -->
+  <main>
+    <section class="HotelsPage">
+      <article>
+        <aside class="top">
+          <img src="https://st2.depositphotos.com/4327059/7728/v/950/depositphotos_77281464-stock-illustration-travel-and-tourism-background.jpg" height="100%" width="100%" />
+        </aside>
+        <aside class="bottom">
+          <article class="banners">
+            <aside class="left">
+              <aside class="BannerOneTop">
+                <img src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/301797213.jpg?k=167ac9e8e83ed7dd67b554009bcb95e00138753e868e948e35ec489883c0b3fc&o=" width="288" height="216" />
               </aside>
+              <aside class="BannerOneBotom">
+                <h5>Hotel Paradiso Mestia</h5>
+                <p class="card-text">
+                  contact: 123 456 789 <br />
+                  location: Svaneti <br />
+                  Our E-mail: RandomEmail@Yahoo.com
+                </p>
+                <a href="./hotel1.html"><button>See hotel</button></a>
+              </aside>
+            </aside>
 
-              <aside class="right">
-                <aside class="BannerThreeTop">
-                  <img
-                    src="./assests/img/HomePage/mestia inn.jpg"
-                    width="288"
-                    height="216"
-                  />
-                </aside>
-                <aside class="BannerThreeBottom">
-                  <h5>Hotel Mestia Inn</h5>
-                  <p>
-                    contact: 111 222 333 <br />
-                    location: Svaneti <br />
-                    Our E-mail: testEmail@gmail.com
-                  </p>
-                  <button>See Hotel</button>
-                </aside>
+            <aside class="middle">
+              <aside class="BannerTwoTop">
+                <img src="https://georgiantravelguide.com/storage/thumbnails/img-0616-6.png" width="288" height="216" />
               </aside>
-            </article>
-          </aside>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <a href="https://www.facebook.com/"
-        ><i class="fa-brands fa-facebook"></i
-      ></a>
-      <a href="https://www.instagram.com/?hl=en"
-        ><i class="fa-brands fa-instagram"></i
-      ></a>
-      <a href="https://twitter.com/?lang=en"
-        ><i class="fa-brands fa-twitter"></i
-      ></a>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
-    <script src="./firebase.js"></script>
-    <script src="./addhotel.js"></script>
-    <script src="./main.js"></script>
-  </body>
+              <aside class="BannerTwoBottom">
+                <h5>Hotel Panorama bakhmaro</h5>
+                <p>
+                  contact: 111 222 333 <br />
+                  location: Bakhmaro <br />
+                  Our E-mail: testEmail@gmail.com
+                </p>
+                <a href="./hotel2.html"><button>See Hotel</button></a>
+              </aside>
+            </aside>
+
+            <aside class="right">
+              <aside class="BannerThreeTop">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max500/302633997.jpg?k=4ecb52402d660242bc8935a55945e1aa0c1b8e1b47b8ee647786150bc752b314&o=&hp=1" width="288" height="216" />
+              </aside>
+              <aside class="BannerThreeBottom">
+                <h5>Hotel Mestia Inn</h5>
+                <p>
+                  contact: 111 222 333 <br />
+                  location: Svaneti <br />
+                  Our E-mail: testEmail@gmail.com
+                </p>
+                <a href="./hotel3.html"><button>See Hotel</button></a>
+              </aside>
+            </aside>
+          </article>
+        </aside>
+      </article>
+    </section>
+  </main>
+  <!-- ---------------footer---------------- -->
+  <footer>
+    <ul>
+      <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+  </footer>
+  <!-- -------------------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <script src="./firebase.js"></script>
+  <script src="./main.js"></script>
+</body>
+
 </html>
