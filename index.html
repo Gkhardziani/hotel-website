@@ -18,22 +18,22 @@
     <article>
       <aside class="left">
         <nav>
-          <a href="./index.html">Home</a>
-          <a href="./hotels.html">Hotels</a>
+          <a href="./hotels.html">Home</a>
+          <a href="./index.html">Hotels</a>
+         
         </nav>
       </aside>
       <aside class="right">
         <ul>
-          
-          <li><a href="./addhotel.html">addhotel</a></li>
+          <li><a href="./addhotel.html">addhotel</a></li>          
           <li><a class="nav-link not-vissible logout" href="./register.html">Log out</a></li>
           <li><a href="./login.html">login</a></li>
           <li><a href="./register.html">register</a></li>
-          <li> <a class="logo" href="./index.html">BookingGe</a> </li>
+          <li> <a class="logo" href="./hotels.html">BookingGe</a> </li>
         </ul>
     </article>
   </header>
-  <!-- -------------------------main------------------------- -->
+  <!-- --------------main------------------- -->
   <main>
     <section class="HomePage">
       <article>
@@ -47,20 +47,61 @@
         </aside>
       </article>
     </section>
-    <section class="not-vissible displayPosts">
-      <article id="displayPost">
-        <div class="loading">
-          <div class="content-container">
-            <div class="sk-folding-cube">
-              <div class="sk-cube1 sk-cube"></div>
-              <div class="sk-cube2 sk-cube"></div>
-              <div class="sk-cube4 sk-cube"></div>
-              <div class="sk-cube3 sk-cube"></div>
-            </div>
-          </div>
-        </div>
+    <section class="HotelsPage">
+      <article>
+       
+        <aside class="bottom">
+          <article class="banners">
+            <aside class="left">
+              <aside class="BannerOneTop">
+                <img src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/301797213.jpg?k=167ac9e8e83ed7dd67b554009bcb95e00138753e868e948e35ec489883c0b3fc&o=" width="288" height="216" />
+              </aside>
+              <aside class="BannerOneBotom">
+                <h5>Hotel Paradiso Mestia</h5>
+                <p class="card-text">
+                  contact: 123 456 789 <br />
+                  location: Svaneti <br />
+                  Our E-mail: RandomEmail@Yahoo.com
+                </p>
+                <a href="./hotel1.html"><button>See hotel</button></a>
+              </aside>
+            </aside>
+
+            <aside class="middle">
+              <aside class="BannerTwoTop">
+                <img src="https://georgiantravelguide.com/storage/thumbnails/img-0616-6.png" width="288" height="216" />
+              </aside>
+              <aside class="BannerTwoBottom">
+                <h5>Hotel Panorama bakhmaro</h5>
+                <p>
+                  contact: 111 222 333 <br />
+                  location: Bakhmaro <br />
+                  Our E-mail: testEmail@gmail.com
+                </p>
+                <a href="./hotel2.html"><button>See Hotel</button></a>
+              </aside>
+            </aside>
+
+            <aside class="right">
+              <aside class="BannerThreeTop">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max500/302633997.jpg?k=4ecb52402d660242bc8935a55945e1aa0c1b8e1b47b8ee647786150bc752b314&o=&hp=1" width="288" height="216" />
+              </aside>
+              <aside class="BannerThreeBottom">
+                <h5>Hotel Mestia Inn</h5>
+                <p>
+                  contact: 111 222 333 <br />
+                  location: Svaneti <br />
+                  Our E-mail: testEmail@gmail.com
+                </p>
+                <a href="./hotel3.html"><button>See Hotel</button></a>
+              </aside>
+            </aside>
+          </article>
+        </aside>
       </article>
     </section>
+    <!-- -- -->
+   
   </main>
   <!-- ---------------footer---------------- -->
   <footer>
@@ -80,8 +121,6 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
   <script src="./firebase.js"></script>
-  <script src="./addhotel.js"></script>
-  <script src="./add.js"></script>
   <script src="./main.js"></script>
 </body>
 

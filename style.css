@@ -52,6 +52,10 @@ header article .right ul li a {
   color: darkgoldenrod;
 }
 
+main #displayPost {
+  display: inline-block;
+}
+
 /* -------------------Home page------------------ */
 main .HomePage article .top {
   height: 500px;
