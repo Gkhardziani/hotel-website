@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
 }
 /* ------------------Header---------------- */
 header {
@@ -53,15 +54,32 @@ header article .right ul li a {
 }
 
 main #displayPost {
-  display: inline-block;
+  display: inline-flex;
+  gap: 50px;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main aside {
+  color: white;
+}
+
+main .HomePage .top {
+  display: flex;
+}
+
+main .HotelsPage .top {
+  display: flex;
 }
 
 /* -------------------Home page------------------ */
 main .HomePage article .top {
-  height: 500px;
+  height: 100%;
   overflow: hidden;
 }
 main .HomePage article .top img {
+  height: 400px;
   transition: 0.5s ease;
 }
 main .HomePage article .top:hover img {
@@ -69,7 +87,8 @@ main .HomePage article .top:hover img {
 }
 main .HomePage article .bottom .buttons {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 main .HomePage article .bottom .buttons a {
   text-decoration: none;
@@ -103,15 +122,17 @@ main .HomePage article .bottom .HotelPageButton:hover {
 /* -------------------------Hotel page--------------------------- */
 
 main .HotelsPage article .top {
-  height: 500px;
+  height: 100%;
   overflow: hidden;
 }
 main .HotelsPage article .top img {
+  height: 500px;
   transition: 0.5s ease;
 }
 main .HotelsPage article .top:hover img {
   transform: scale(1.2);
 }
+
 main .HotelsPage article .bottom {
   height: 50%;
   width: 100%;
@@ -131,7 +152,7 @@ main .HotelsPage article .bottom .banners {
 main .HotelsPage article .bottom .banners .left {
   height: 366;
   width: 288;
-  border: 4px solid black;
+  border: 4px solid #5a5a5a;
   border-radius: 10px;
 }
 main .HotelsPage article .bottom .banners .left .BannerOneTop {
@@ -157,7 +178,7 @@ main .HotelsPage article .bottom .banners .left .BannerOneBotom button:hover {
 main .HotelsPage article .bottom .banners .middle {
   height: 366;
   width: 288;
-  border: 4px solid black;
+  border: 4px solid #5a5a5a;
   border-radius: 10px;
 }
 main .HotelsPage article .bottom .banners .middle .BannerTwoTop {
@@ -190,7 +211,7 @@ main
 main .HotelsPage article .bottom .banners .right {
   height: 366;
   width: 288;
-  border: 4px solid black;
+  border: 4px solid #5a5a5a;
   border-radius: 10px;
 }
 main .HotelsPage article .bottom .banners .right .BannerThreeTop {
@@ -256,6 +277,10 @@ main .RegisterPage .bottom .registerbanner {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+main .RegisterPage .bottom .registerbanner button a {
+  text-decoration: none;
+  color: white;
 }
 /* ---------------footer----------------  */
 
